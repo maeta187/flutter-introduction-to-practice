@@ -18,7 +18,7 @@ void printIf() {
 
   /// 他言語と同様`if`、`else`は使用できる
   /// 但し、`if(_string)`のような条件式は使用できない
-  /// 代わりに`if(_string != null)`を使用するが中の処理は`_string`が`null`でないことを保証しない
+  /// 代わりに`if(_string != null)`を使用する
   if (_string != null) {
     print(_string?.toUpperCase());
   }
