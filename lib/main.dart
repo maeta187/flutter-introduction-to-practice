@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 // import 'package:flutter_localizations/flutter_localizations.dart';
 import './chapter04/index.dart';
+import './chapter04/asset.dart';
 
 // void main() {
 //   runApp(const MainApp());
@@ -29,7 +30,8 @@ void main() {
       ],
       */
       supportedLocales: L10n.supportedLocales,
-      home: HomeScreen(),
+      // home: HomeScreen(),
+      home: Asset(),
     ),
   );
 }
