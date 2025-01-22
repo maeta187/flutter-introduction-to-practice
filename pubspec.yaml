@@ -14,15 +14,21 @@ dependencies:
   intl: any
   flutter_localizations:
     sdk: flutter
+  flutter_svg: ^2.0.17
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
   build_runner: ^2.4.14
+  flutter_gen_runner: ^5.8.0
 
 flutter:
   uses-material-design: true
   generate: true
   assets:
     - assets/ # ディレクトリ指定
+
+flutter_gen:
+  integrations:
+    flutter_svg: true
