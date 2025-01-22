@@ -49,3 +49,9 @@ app.*.map.json
 
 # VS Code
 .vscode/
+
+# env
+define/
+
+# generated
+gen/
